@@ -6,7 +6,7 @@ The given program in 'health_check.py' file runs health checks every 15 secs for
 
 ### Pre-requisites to run
 
-Make sure you have Python3 installed with 'pyyaml' and 'requests' packages. If using pip3 manager, simply run:
+Make sure you have **Python3** installed with 'pyyaml' and 'requests' packages. If using pip3 manager, simply run:
 
 ```Bash
 pip3 install -r requirements.txt
@@ -26,11 +26,11 @@ An example would look like (using sample.yaml given in original prompt)
 python3 health_check.py sample.yaml
 ```
 
-Press Ctrl+C to terminate the program
+**Press Ctrl+C to terminate the program**
 
 ### Results Display in Command Line
 
-Results are displayed as '<domain_name> has <availability_percentage_value> availability percentage'
+Results are displayed as '**<domain_name>** has **<availability_percentage_value>** availability percentage'
 
 For example:
 
